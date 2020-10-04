@@ -23,7 +23,12 @@ Comandos mais usados:<br/>
    14 - **docker container rm $(docker container ls -a -q)**. Remove todos os container<br/>
    15 - **docker run -d -P < idimage >**. Note que neste caso não informei a porta e ainda usei o **-P** maisculo neste caso o docker gera as porta de forma aleatória <br/>
    16 - **docker container logs < id container >**. Exibe o log do container <br/>
-   17 - ** **.<br/>
+   17 - **docker container top < id container >**. Exibe Todos os processo do container<br/>
+   18 - **docker container stats** Esse comando é bom para saber o quanto de recurso esta sendo utlizando pelo seu container.<br/>
+   18 - ** **.<br/>
+   18 - ** **.<br/>
+   18 - ** **.<br/>
+   18 - ** **.<br/>
    18 - ** **.<br/>
          
     
