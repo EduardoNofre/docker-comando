@@ -26,9 +26,12 @@ Comandos mais usados:<br/>
    17 - **docker container top < id container >**. Exibe Todos os processo do container<br/>
    18 - **docker container stats** Esse comando é bom para saber o quanto de recurso esta sendo utlizando .<br/>
    19 - **docker container stats < id container >**. Agora para saber o quanto de recurso o seu contatiner esta utilizando<br/>
-   20 - **docker network ls**. Lista as redes<br/>
-   21 - ** **.<br/>
-   22 - ** **.<br/>
+   20 - **docker network ls**. Lista as redes do docker<br/>
+   21 - **docker network inspect < id rede >**. Inspenciona a rede do seu docker<br/>
+   22 - **docker network inspect < nome da rede >**. Exibe os containers que estão pendurado na rede<br/>
+   23 - ** **.<br/>
+   23 - ** **.<br/>
+   23 - ** **.<br/>
    23 - ** **.<br/>
          
     
