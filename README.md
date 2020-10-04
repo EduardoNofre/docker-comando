@@ -17,10 +17,14 @@ Comandos mais usados:<br/>
     8 - **docker container run -d --name < defini um nome  > -v < nome volume >:/var/lib/docker/volumes/vol-jenkins/_data < idimage >**. Aqui executamos uma imagem **--name** damos uma nome para o container **-v** nome do volume **:** caminho onde se encontra o volume por fim o **< id imagem >**  <br/>
     9 - **docker ps**. Lista todos os container que estão em execução<br/>
    10 - **docker ps -a**. Lista todos os container que estão em execução e os que foram interrompidos<br/>
-   11 - ** **.<br/>
-   12 - ** **.<br/>
-   13 - ** **.<br/>
-   14 - ** **.<br/>
-   14 - ** **.<br/>
+   11 - **docker container stop < id container >**.<br/>
+   12 - **docker container start < id container >**.<br/>
+   13 - **docker container ls -a -q**. Lista somente os id's de todos os container <br/>
+   14 - **docker container rm $(docker container ls -a -q)**. Remove todos os container<br/>
+   15 - ** **.<br/>
+   16 - ** **.<br/>
+   17 - ** **.<br/>
+   18 - ** **.<br/>
+         
     
  
