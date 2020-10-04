@@ -10,10 +10,10 @@ Comandos mais usados:<br/>
     1 - **docker info** Esse te dará todas as informaçoes do docker.<br/>
     2 - **docker version**. Versão do docker instalada<br/>
     3 - **docker inspect**. Esse comando server para inspecionar sua imagem, container e volume Exemplo: **docker inspect**<**idimage**><br/>
-    4 - **docker container rm < idcontainer >**. Este comando remove container <br/>
-    5 - **docker container rm -f < idcontainer >**. Este comando força a remoção do container <br/>
+    4 - **docker container rm < id container >**. Este comando remove container <br/>
+    5 - **docker container rm -f < id container >**. Este comando força a remoção do container <br/>
     6 - **docker volume create vol-keycloack**. Esse comando cria um volume com o nome de **vol-keycloack** <br/>
-    7 - **docker run -d -p 8081:8080 < idimage >**. Comando que executa a imagem **-d** para subir desataxado **-p** portas usada onde 8081 é a porta externa e a 8080 porta interna no docker <br/>
+    7 - **docker run -d -p 8081:8080 < id image >**. Comando que executa a imagem **-d** para subir desataxado **-p** portas usada onde 8081 é a porta externa e a 8080 porta interna no docker <br/>
     8 - **docker container run -d --name < defini um nome  > -v < nome volume >:/var/lib/docker/volumes/vol-jenkins/_data < idimage >**. Aqui executamos uma imagem **--name** damos uma nome para o container **-v** nome do volume **:** caminho onde se encontra o volume por fim o **< id imagem >**  <br/>
     9 - **docker ps**. Lista todos os container que estão em execução<br/>
    10 - **docker ps -a**. Lista todos os container que estão em execução e os que foram interrompidos<br/>
@@ -22,7 +22,7 @@ Comandos mais usados:<br/>
    13 - **docker container ls -a -q**. Lista somente os id's de todos os container <br/>
    14 - **docker container rm $(docker container ls -a -q)**. Remove todos os container<br/>
    15 - **docker run -d -P < idimage >**. Note que neste caso não informei a porta e ainda usei o **-P** maisculo neste caso o docker gera as porta de forma aleatória <br/>
-   16 - ** **.<br/>
+   16 - **docker container logs < id container >**. Exibe o log do container <br/>
    17 - ** **.<br/>
    18 - ** **.<br/>
          
