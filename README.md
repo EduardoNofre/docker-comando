@@ -17,8 +17,8 @@ Comandos mais usados:<br/>
     8 - **docker container run -d --name < defini um nome  > -v < nome volume >:/var/lib/docker/volumes/vol-jenkins/_data < idimage >**. Aqui executamos uma imagem **--name** damos uma nome para o container **-v** nome do volume **:** caminho onde se encontra o volume por fim o **< id imagem >**  <br/>
     9 - **docker ps**. Lista todos os container que estão em execução<br/>
    10 - **docker ps -a**. Lista todos os container que estão em execução e os que foram interrompidos<br/>
-   11 - **docker container stop < id container >**.<br/>
-   12 - **docker container start < id container >**.<br/>
+   11 - **docker container stop < id container >**. Esse comando para o container<br/>
+   12 - **docker container start < id container >**.Esse comando inicia o container<br/>
    13 - **docker container ls -a -q**. Lista somente os id's de todos os container <br/>
    14 - **docker container rm $(docker container ls -a -q)**. Remove todos os container<br/>
    15 - **docker run -d -P < idimage >**. Note que neste caso não informei a porta e ainda usei o **-P** maisculo neste caso o docker gera as porta de forma aleatória <br/>
@@ -26,7 +26,7 @@ Comandos mais usados:<br/>
    17 - **docker container top < id container >**. Exibe Todos os processo do container<br/>
    18 - **docker container stats** Esse comando é bom para saber o quanto de recurso esta sendo utlizando .<br/>
    19 - **docker container stats < id container >**. Agora para saber o quanto de recurso o seu contatiner esta utilizando<br/>
-   20 - **  **.<br/>
+   20 - **docker network ls**. Lista as redes<br/>
    21 - ** **.<br/>
    22 - ** **.<br/>
    23 - ** **.<br/>
