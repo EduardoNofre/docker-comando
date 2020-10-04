@@ -25,11 +25,11 @@ Comandos mais usados:<br/>
    16 - **docker container logs < id container >**. Exibe o log do container <br/>
    17 - **docker container top < id container >**. Exibe Todos os processo do container<br/>
    18 - **docker container stats** Esse comando é bom para saber o quanto de recurso esta sendo utlizando pelo seu container.<br/>
-   18 - ** **.<br/>
-   18 - ** **.<br/>
-   18 - ** **.<br/>
-   18 - ** **.<br/>
-   18 - ** **.<br/>
+   19 - ** **.<br/>
+   20 - ** **.<br/>
+   21 - ** **.<br/>
+   22 - ** **.<br/>
+   23 - ** **.<br/>
          
     
  
