@@ -8,9 +8,10 @@ Exemplo:<br/>
 
 Comandos mais usados:<br/>
     1 - **docker info** Esse te dará todas as informaçoes do docker.<br/>
-    1 - **docker version**. Versão do docker instalada<br/>
-    1 - **docker inspect**. Esse comando server para inspecionar sua imagem, container e volume Exemplo: **docker inspect**<**idimage**><br/>
-    1 - ** **.<br/>
-    1 - ** **.<br/>
+    2 - **docker version**. Versão do docker instalada<br/>
+    3 - **docker inspect**. Esse comando server para inspecionar sua imagem, container e volume Exemplo: **docker inspect**<**idimage**><br/>
+    4 - **docker container rm < idcontainer >**. Este comando remove container <br/>
+    5 - **docker container rm -f < idcontainer >**. Este comando força a remoção do container <br/>
+    5 - ** **.<br/>
     
  
