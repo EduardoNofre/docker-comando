@@ -26,7 +26,7 @@ Comandos mais usados:<br/>
    17 - **docker container top < id container >**. Exibe Todos os processo do container<br/>
    18 - **docker container stats** Esse comando é bom para saber o quanto de recurso esta sendo utlizando .<br/>
    19 - **docker container stats < id container >**. Agora para saber o quanto de recurso o seu contatiner esta utilizando<br/>
-   20 - ** **.<br/>
+   20 - **  **.<br/>
    21 - ** **.<br/>
    22 - ** **.<br/>
    23 - ** **.<br/>
