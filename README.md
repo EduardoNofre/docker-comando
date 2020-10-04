@@ -21,7 +21,7 @@ Comandos mais usados:<br/>
    12 - **docker container start < id container >**.<br/>
    13 - **docker container ls -a -q**. Lista somente os id's de todos os container <br/>
    14 - **docker container rm $(docker container ls -a -q)**. Remove todos os container<br/>
-   15 - ** **.<br/>
+   15 - **docker run -d -P < idimage >****. Note que neste caso não informei a porta e ainda useu o maisculo **-P** neste caso o docker gera as porta de forma aleatoria <br/>
    16 - ** **.<br/>
    17 - ** **.<br/>
    18 - ** **.<br/>
