@@ -12,6 +12,14 @@ Comandos mais usados:<br/>
     3 - **docker inspect**. Esse comando server para inspecionar sua imagem, container e volume Exemplo: **docker inspect**<**idimage**><br/>
     4 - **docker container rm < idcontainer >**. Este comando remove container <br/>
     5 - **docker container rm -f < idcontainer >**. Este comando força a remoção do container <br/>
-    5 - ** **.<br/>
+    6 - **docker volume create vol-keycloack**. Esse comando cria um volume com o nome de **vol-keycloack** <br/>
+    0 - ** **.<br/>
+    0 - ** **.<br/>
+    0 - ** **.<br/>
+    0 - ** **.<br/>
+    0 - ** **.<br/>
+    0 - ** **.<br/>
+    0 - ** **.<br/>
+    0 - ** **.<br/>
     
  
