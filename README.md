@@ -9,7 +9,7 @@ Exemplo:<br/>
 Comandos mais usados:<br/>
     1 - **docker info** Esse te dará todas as informaçoes do docker.<br/>
     1 - **docker version**. Versão do docker instalada<br/>
-    1 - **docker inspect**. Esse comando server para inspecionar sua imagem, container e valume Exemplo: **docker inspect**<**idimage**>** <br/>
+    1 - **docker inspect**. Esse comando server para inspecionar sua imagem, container e valume Exemplo: **docker inspect**<**idimage**><br/>
     1 - ** **.<br/>
     1 - ** **.<br/>
     
