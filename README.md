@@ -13,7 +13,7 @@ Comandos mais usados:<br/>
     4 - **docker container rm < idcontainer >**. Este comando remove container <br/>
     5 - **docker container rm -f < idcontainer >**. Este comando força a remoção do container <br/>
     6 - **docker volume create vol-keycloack**. Esse comando cria um volume com o nome de **vol-keycloack** <br/>
-    0 - ** **.<br/>
+    0 - **docker run -d -p 8081:8080 < idcontainer >**. Comando que executa a imagem **-d** para subir desataxado **-p** portas usada onde 8081 é a porta externa e a 8080 porta interna no docker <br/>
     0 - ** **.<br/>
     0 - ** **.<br/>
     0 - ** **.<br/>
