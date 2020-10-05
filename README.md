@@ -35,29 +35,28 @@ Comandos mais usados:<br/>
    26 - **docker container run --name < nome container> -d --network < nome da rede que deseja >  < id imagem >**. Este comando associa o container a uma rede.<br/>
    27 - **docker network prune**. Remove todas as redes que não estão sendo usadas<br/>
          
-## Anotaçoes:
-    
-    lista todos os container
-sudo docker ps -a
+ ## Anotaçoes:
+   
+sudo docker ps -a<br/>
 
-lista todos os container em execução
-sudo docker ps
+lista todos os container em execução<br/>
+sudo docker ps<br/>
 
-Stop container 
-sudo docker stop <id container>
+Stop container <br/>
+sudo docker stop <id container><br/>
 
-executar
-sudo docker run -d -p 8080:8080 <id image or id container>
+executar<br/>
+sudo docker run -d -p 8080:8080 <id image or id container><br/>
 
-remover um container
-sudo docker rm id container
+remover um container<br/>
+sudo docker rm id container<br/>
 
-executar um container com um nome:
-docker run --name <seu nome> -d -p 8080:8080 <id image>
+executar um container com um nome:<br/>
+docker run --name <seu nome> -d -p 8080:8080 <id image><br/>
 
-executar comando dentro do seu container
-docker exec  <id container> 
+executar comando dentro do seu container<br/>
+docker exec  <id container> <br/>
 
-keyclocakc com nome e passando a porta e excutando em segundo plano
-sudo docker run --name keycloack -d -p 8080:8080 -e KEYCLOAK_USER=admin -e KEYCLOAK_PASSWORD=admin quay.io/keycloak/keycloak:11.0.2
+keyclocakc com nome e passando a porta e excutando em segundo plano<br/>
+sudo docker run --name keycloack -d -p 8080:8080 -e KEYCLOAK_USER=admin -e KEYCLOAK_PASSWORD=admin quay.io/keycloak/keycloak:11.0.2<br/>
  
