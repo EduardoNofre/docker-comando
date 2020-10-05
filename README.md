@@ -14,7 +14,7 @@ Comandos mais usados:<br/>
     5 - **docker container rm -f < id container >**. Este comando força a remoção do container <br/>
     6 - **docker volume create vol-keycloack**. Esse comando cria um volume com o nome de **vol-keycloack** <br/>
     7 - **docker run -d -p 8081:8080 < id image >**. Comando que executa a imagem **-d** para subir desataxado **-p** portas usada onde 8081 é a porta externa e a 8080 porta interna no docker <br/>
-    8 - **docker container run -d --name < defini um nome  > -v < nome volume >:/var/lib/docker/volumes/vol-jenkins/_data < idimage >**. Aqui executamos uma imagem **--name** damos uma nome para o container **-v** nome do volume **:** caminho onde se encontra o volume por fim o **< id imagem >**  <br/>
+    8 - **docker container run -d --name < defini um nome  > -v < nome volume >:/var/lib/docker/volumes/vol-jenkins/_data < idimage >**. Aqui executamos uma imagem **--name** daremos um nome para o container **-v** nome do volume **:** caminho onde se encontra o volume por fim o **< id imagem >**  <br/>
     9 - **docker ps**. Lista todos os container que estão em execução<br/>
    10 - **docker ps -a**. Lista todos os container que estão em execução e os que foram interrompidos<br/>
    11 - **docker container stop < id container >**. Esse comando para o container<br/>
