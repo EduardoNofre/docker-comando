@@ -29,8 +29,8 @@ Comandos mais usados:<br/>
    20 - **docker network ls**. Lista as redes do docker<br/>
    21 - **docker network inspect < id rede >**. Inspenciona a rede do seu docker<br/>
    22 - **docker network inspect < nome da rede >**. Exibe os containers que estão pendurado na rede<br/>
-   23 - ** **.<br/>
-   23 - ** **.<br/>
+   23 - **docker network create < nome da rede que deseja>**. Esse comando cria uma rede com o nome desajado<br/>
+   23 - **docker network create < nome da rede que deseja> --subnet 192.168.134.0/24 --gateway  192.168.134.1**. Com esse comando você define criar a sua rede com um range de IP<br/>
    23 - ** **.<br/>
    23 - ** **.<br/>
          
