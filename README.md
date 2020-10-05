@@ -1,4 +1,4 @@
-## docker-comando
+## docker-comando Dia a Dia
 
 1 - Lista de comando docker.<br/>
     O docker desde de 2017 dividiu os comando em dois grupos **comando de gerenciamento** e **comandos**<br/>
@@ -35,5 +35,29 @@ Comandos mais usados:<br/>
    26 - **docker container run --name < nome container> -d --network < nome da rede que deseja >  < id imagem >**. Este comando associa o container a uma rede.<br/>
    27 - **docker network prune**. Remove todas as redes que não estão sendo usadas<br/>
          
+## Anotaçoes:
     
+    lista todos os container
+sudo docker ps -a
+
+lista todos os container em execução
+sudo docker ps
+
+Stop container 
+sudo docker stop <id container>
+
+executar
+sudo docker run -d -p 8080:8080 <id image or id container>
+
+remover um container
+sudo docker rm id container
+
+executar um container com um nome:
+docker run --name <seu nome> -d -p 8080:8080 <id image>
+
+executar comando dentro do seu container
+docker exec  <id container> 
+
+keyclocakc com nome e passando a porta e excutando em segundo plano
+sudo docker run --name keycloack -d -p 8080:8080 -e KEYCLOAK_USER=admin -e KEYCLOAK_PASSWORD=admin quay.io/keycloak/keycloak:11.0.2
  
