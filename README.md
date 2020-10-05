@@ -34,7 +34,6 @@ Comandos mais usados:<br/>
    25 - **docker network rm < nome da rede que deseja>**. Este comando deleta a rede desejada<br/>
    26 - **docker container run --name < nome container> -d --network < nome da rede que deseja >  < id imagem >**. Este comando associa o container a uma rede.<br/>
    27 - **docker network prune**. Remove todas as redes que não estão sendo usadas<br/>
-   28 - ** **.<br/>
          
     
  
