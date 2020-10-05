@@ -33,7 +33,7 @@ Comandos mais usados:<br/>
    24 - **docker network create < nome da rede que deseja> --subnet 192.168.134.0/24 --gateway  192.168.134.1**. Com esse comando você cria a sua rede com um range de IP<br/>
    25 - **docker network rm < nome da rede que deseja>**. Este comando deleta a rede desejada<br/>
    26 - **docker container run --name < nome container> -d --network < nome da rede que deseja >  < id imagem >**. Este comando associa o container a uma rede.<br/>
-   27 - ** **.<br/>
+   27 - **docker network prune**. Remove todas as redes que não estão sendo usadas<br/>
    28 - ** **.<br/>
          
     
