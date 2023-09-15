@@ -1,12 +1,10 @@
-## docker-comando Dia a Dia
-
-- Lista de comando docker.**<br/>
+- ### Lista de comando docker.**<br/>
     O docker desde de 2017 dividiu os comando em dois grupos **comando de gerenciamento** e **comandos**<br/>
     Para ver todas essa lista digite no docker o seguinte comando: **docker --help** irá lista todos os camando de forma organizada la você verá **comando de gerenciamento** e **comandos**<br/>
 Exemplo:<br/>
     **docker < comando > < sub-comando > < opções >**<br/>
 
--  Comandos mais usados:<br/>
+- ### Comandos mais usados:<br/>
     1 - **docker info** Esse te dará todas as informaçoes do docker instalado na sua maquina ou servidor.<br/>
     2 - **docker version**. Versão do docker instalada<br/>
     3 - **docker inspect**. Esse comando server para inspecionar sua imagem, container e volume Exemplo: **docker inspect**<**idimage**><br/>
@@ -35,7 +33,7 @@ Exemplo:<br/>
    26 - **docker container run --name < nome container> -d --network < nome da rede que deseja >  < id imagem >**. Este comando associa o container a uma rede.<br/>
    27 - **docker network prune**. Remove todas as redes que não estão sendo usadas<br/>
          
- ## Anotaçoes:
+- ### Anotaçoes:
    
 - sudo docker ps -a<br/>
 lista todos os container em execução<br/>
