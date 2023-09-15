@@ -37,26 +37,25 @@ Comandos mais usados:<br/>
          
  ## Anotaçoes:
    
-sudo docker ps -a<br/>
-
+- sudo docker ps -a<br/>
 lista todos os container em execução<br/>
 sudo docker ps<br/>
 
-Stop container <br/>
+- Stop container <br/>
 sudo docker stop <id container><br/>
 
-executar<br/>
+- executar<br/>
 sudo docker run -d -p 8080:8080 <id image or id container><br/>
 
-remover um container<br/>
+- remover um container<br/>
 sudo docker rm id container<br/>
 
-executar um container com um nome:<br/>
+- executar um container com um nome:<br/>
 docker run --name <seu nome> -d -p 8080:8080 <id image><br/>
 
-executar comando dentro do seu container<br/>
+- executar comando dentro do seu container<br/>
 docker exec  <id container> <br/>
 
-keyclocakc com nome e passando a porta e excutando em segundo plano<br/>
+- keyclocakc com nome e passando a porta e excutando em segundo plano<br/>
 sudo docker run --name keycloack -d -p 8080:8080 -e KEYCLOAK_USER=admin -e KEYCLOAK_PASSWORD=admin quay.io/keycloak/keycloak:11.0.2<br/>
  
