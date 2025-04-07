@@ -11,5 +11,4 @@ public class Java {
 	private String nome;
 	private Integer idade;
 	private LocalDate DataNascimento;
-
 }

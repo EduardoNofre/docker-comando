@@ -24,13 +24,13 @@ public class JavaService {
 	private ModelMapper modelMapper;
 	
 	public int criarPessoas() {
-		log.info("criar todas as pessoas");
+		//log.info("criar todas as pessoas");
 		return javaRepository.criarJavas();
 	}
 	
 	
 	public List<JavaDTO> pessoas() {
-		log.info("lista todas as pessoas");
+		//log.info("lista todas as pessoas");
 		return modelMapper.map(javaRepository.javas(), new TypeToken<List<JavaDTO>>() {
 		}.getType());
 	}

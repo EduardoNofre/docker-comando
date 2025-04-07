@@ -10,6 +10,7 @@ import io.swagger.v3.oas.models.Components;
 import io.swagger.v3.oas.models.OpenAPI;
 import io.swagger.v3.oas.models.info.Info;
 import lombok.extern.slf4j.Slf4j;
+
 @Slf4j
 @Configuration
 @ComponentScan("udemy.proto.api.app")
@@ -17,7 +18,7 @@ public class ApplicationModelMapper  {
 
 	  @Bean
 	  public ModelMapper modelMapper() {
-		log.info("[JAVA-ESTUDOS] - modelMapper - inicializado");
+	//	log.info("[JAVA-ESTUDOS] - modelMapper - inicializado");
 	    final ModelMapper mp = new ModelMapper();
 	    mp.getConfiguration().setAmbiguityIgnored(true).setDeepCopyEnabled(false)
 	        .setFullTypeMatchingRequired(true).setMatchingStrategy(MatchingStrategies.STRICT);
