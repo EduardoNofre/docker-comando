@@ -12,12 +12,55 @@
   - ### 2 - Fazer o downnload do Docker Desktop de acordo com seu S.O <br>
   - ### 3 - Instalar o Docker Desktop <br>
   - ### 4 - Verificar se a instalação deu certo pode executar um dos comando abaixo.<br>
-    - ### 4.1 - execute o comando 'docker --version'.<br>
-    - ### 4.2 - execute o comando 'docker run hello-world'.<br>
-    - ### 4.3 - execute o comando 'docker ps'.<br>
+    - ### 4.0 - execute o comando 'docker --version'.<br>
+    - ### 4.1 - execute o comando 'docker run hello-world'.<br>
+    - ### 4.2 - execute o comando 'docker ps'.<br>
 
 
-## Preparando ambiente Docker.
+## Cirando o arquivo Dockerfile ambiente Docker.
+ ### 1 - O arquivo Dockerfile contem as configuraçoes necessaria para criar a imagem da aplicação.<br>
+ ### 2 - O arquivo Dockerfile pode ser inserido ou criado na raiz do seu projeto.<br>
+     ### 3 exemplo no java.<br>
+<p align="center">
+  <img src="https://github.com/EduardoNofre/docker-comando/blob/main/Dockerfile.png?raw=true" alt="Sublime's custom image"/>  
+</p>
+
+## Exemplo de Dockerfile.
+
+## BUILD DA APLICAÇÃO E INDICA QUAL A VERSÃO DO JAVA SERA FEITA O BUILD 
+FROM maven:3.8.4-openjdk-17 as build
+
+##AJUSTA DATA-HORA
+ENV TZ=America/Sao_Paulo
+
+## COPIA SRC PARA /udemy-app/src
+COPY src /udemy-app/src
+
+## FAZ UMA COPIA DO pom.xml PARA /udemy-app
+COPY pom.xml /udemy-app
+
+## RETORNA PARA O DIRETORIO  /udemy-app
+WORKDIR /udemy-app
+
+## COMANDO MAVEN
+RUN mvn clean install
+
+## DIRETORIO JAVA 
+FROM openjdk:22-ea-16-oracle
+
+## PEGA O build  DA APLICAÇÃO E FAZ UMA COPIA PARA /udemy-app/udemy-proto-api-0.0.1.jar
+COPY --from=build /udemy-app/target/udemy-proto-api-0.0.1.jar /udemy-app/udemy-proto-api-0.0.1.jar
+
+## DIRETORIO /udemy-app
+WORKDIR /udemy-app
+
+##  QUAL A PORTA A APLICAÇÃO SERA EXECUTADA
+EXPOSE 8080
+
+##  EXECUTA OS COMANDO JAVA ABAIXO PARA O JAR udemy-proto-api-0.0.1.jar
+CMD [ "java","-jar","udemy-proto-api-0.0.1.jar"]
+
+
 
 
 - ### Lista de comando docker.**<br/>
