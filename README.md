@@ -77,7 +77,7 @@
 
 - ### 1.0 - Execute o comando para criar a imagem da aplicação.<br>
     - ### Sintaxe: docker build -t 'nome da imagem': tag .<br>
-            Exemplo: docker build -t curso-java:1.0
+            Exemplo: docker build -t curso-java:1.0 . não esquecer de colocar ponto final no comando
 
 - ### 1.1 - Execute o comando para verificar a imagem criada .<br>
     - ### Sintaxe: docker image ls<br>
