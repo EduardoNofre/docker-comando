@@ -64,6 +64,7 @@
               ##  EXECUTA OS COMANDO JAVA ABAIXO PARA O JAR udemy-proto-api-0.0.1.jar
               CMD [ "java","-jar","udemy-proto-api-0.0.1.jar"]
 
+
 <p align="center">
   Criando a imagem da sua aplicação.
 </p>
