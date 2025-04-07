@@ -1,5 +1,7 @@
 package com.curso.java.controller;
 
+import java.util.List;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.core.annotation.Order;
 import org.springframework.http.HttpStatus;
@@ -44,9 +46,9 @@ public class JavaController {
 			@ApiResponse(responseCode = "500", description = "Interno sem causa mapeada.", content = @Content),
 			@ApiResponse(responseCode = "504", description = "Gateway Time-Out", content = @Content) })
 	@PostMapping()
-	public ResponseEntity<Void> javas() {
+	public ResponseEntity<Integer> criarJavas() {
 
-		return ResponseEntity.status(HttpStatus.OK).body(null);
+		return ResponseEntity.status(HttpStatus.OK).body(javaService.criarPessoas());
 
 	}
 	
@@ -60,9 +62,9 @@ public class JavaController {
 			@ApiResponse(responseCode = "500", description = "Interno sem causa mapeada.", content = @Content),
 			@ApiResponse(responseCode = "504", description = "Gateway Time-Out", content = @Content) })
 	@GetMapping()
-	public ResponseEntity<Void> pessoas() {
+	public ResponseEntity<List<JavaDTO>> listaJavas() {
 
-		return ResponseEntity.status(HttpStatus.OK).body(null);
+		return ResponseEntity.status(HttpStatus.OK).body(javaService.javas());
 
 	}
 }
