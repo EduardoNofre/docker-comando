@@ -81,8 +81,8 @@
        
                   **docker run -d -p 8081:8080 < id image >**. <br/>
                   Comando que executa a imagem <br/>
-                    **-d** para subir desataxado prompt<br/>
-                    **-p** portas usada onde 8081 é a porta externa e a 8080 porta interna no docker <br/>
+                    -d para subir desataxado prompt<br/>
+                    -p portas usada onde 8081 é a porta externa e a 8080 porta interna no docker <br/>
 
 - ### Lista de comando docker.**<br/>
     O docker desde de 2017 dividiu os comando em dois grupos **comando de gerenciamento** e **comandos**<br/>
