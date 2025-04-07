@@ -28,10 +28,10 @@
 
 ## Exemplo de Dockerfile.
 
-              ## BUILD DA APLICAÇÃO E INDICA QUAL A VERSÃO DO JAVA SERA FEITA O BUILD 
+              ## BUILD DA APLICAÇÃO E INDICA QUAL A VERSÃO DO JAVA SERA FEITA O BUILD UTILIZANDO O MAVEN
               FROM maven:3.8.4-openjdk-17 as build
               
-              ##AJUSTA DATA-HORA
+              ## AJUSTA DATA-HORA
               ENV TZ=America/Sao_Paulo
               
               ## COPIA SRC PARA /udemy-app/src
