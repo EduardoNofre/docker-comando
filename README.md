@@ -28,8 +28,8 @@
    - ### 3 exemplo no java.<br>
 
     <p align="center">
-  <img src="https://github.com/EduardoNofre/docker-comando/blob/main/Dockerfile.png?raw=true" alt="Sublime's custom image"/>  
-</p>
+      <img src="https://github.com/EduardoNofre/docker-comando/blob/main/Dockerfile.png?raw=true" alt="Sublime's custom image"/>  
+    </p>
      
     <h1 align="center">
      Exemplo de Dockerfile 
