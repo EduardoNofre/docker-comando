@@ -65,9 +65,9 @@
               CMD [ "java","-jar","udemy-proto-api-0.0.1.jar"]
 
 
-<p align="center">
+<<h1 align="center">
   Criando a imagem da sua aplicação.
-</p>
+</<h1>
 
 - ### 1 - Uma vez que seu Dokcerfile esteja na sua aplicação e sem erros.<br>
 
