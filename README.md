@@ -101,7 +101,7 @@
                 docker pull financeapp/curso-java:1.0
 
   - ### 5 - Verificando se o push funcionou.<br>
-        - ### Existe duas maneiras <br>
+     - ### Existe duas maneiras <br>
               1 - via comando sintaxe:
                         docker search usuario do dockerHub
                 exemplo:
