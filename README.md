@@ -12,7 +12,7 @@
   - ### 2 - Fazer o downnload do Docker Desktop de acordo com seu S.O <br>
   - ### 3 - Instalar o Docker Desktop <br>
   - ### 4 - Verificar se a instalação deu certo.<br>
-    - ### 4.1 - execute o comando **docker --version** .<br>
+    - ### 4.1 - execute o comando 'docker --version'.<br>
 
 
 ## Preparando ambiente Docker.
