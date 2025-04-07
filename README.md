@@ -62,16 +62,23 @@
               CMD [ "java","-jar","udemy-proto-api-0.0.1.jar"]
 
 ## Criando a imagem da sua aplicação.
+
 - ### 1 - Uma vez que seu Dokcerfile esteja na sua aplicação e sem erros.<br>
   - ### Execute o comando para criar a imagem da aplicação.<br>
-    - ### Sintaxe: 'docker build -t 'nome da imagem': tag .'<br>
+    - ### Sintaxe: docker build -t 'nome da imagem': tag .<br>
         Exemplo: docker build -t curso-java:1.0
-  - ### Execute o comando para verificar a imagem criada .<br>
-    - ### Sintaxe: 'docker image ls': tag .'<br>
+
+   - ### Execute o comando para verificar a imagem criada .<br>
+    - ### Sintaxe: docker image ls<br>
         Saida:
               REPOSITORY                   TAG       IMAGE ID       CREATED       SIZE
               curso-java                   1.0       00a75f64ef82   2 hours ago   840MB
-
+      
+    - ### Execute o comando para roda a imagem.<br>
+     - ### Sintaxe: docker run -d -p 8080:8080 'nome da imagem ou id':tag <br>
+         Exemplo: docker run -d -p 8080:8080 curso-java:1.0
+            Observação:
+              **docker run -d -p 8081:8080 < id image >**. Comando que executa a imagem **-d** para subir desataxado **-p** portas usada onde 8081 é a porta externa e a 8080 porta interna no docker <br/>
 
 - ### Lista de comando docker.**<br/>
     O docker desde de 2017 dividiu os comando em dois grupos **comando de gerenciamento** e **comandos**<br/>
