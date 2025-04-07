@@ -1,33 +1,33 @@
-## BUILD DA APLICAÇÃO E INDICA QUAL A VERSÃO DO JAVA SERA FEITA O BUILD 
+# USE UMA IMAGEM BASE MÍNIMA DO OPENJDK
 FROM maven:3.8.4-openjdk-17 as build
 
 ##AJUSTA DATA-HORA
 ENV TZ=America/Sao_Paulo
 
-## COPIA SRC PARA /udemy-app/src
+## COPIA SRC PARA /java-estudos/src
 COPY src /java-estudos/src
 
-## FAZ UMA COPIA DO pom.xml PARA /udemy-app
+# COPIE APENAS O ARQUIVO POM.XML PARA APROVEITAR O CACHE DO DOCKER
 COPY pom.xml /java-estudos
 
-## RETORNA PARA O DIRETORIO  /udemy-app
+# DEFINA O DIRETÓRIO DE TRABALHO
 WORKDIR /java-estudos
 
-## COMANDO MAVEN
+# COPIE APENAS O ARQUIVO POM.XML PARA APROVEITAR O CACHE DO DOCKER
 RUN mvn clean install
 
-## DIRETORIO JAVA 
+# CRIE UMA IMAGEM MAIS LEVE PARA RODAR A APLICAÇÃO (IMAGEM RUNTIME)
 FROM openjdk:22-ea-16-oracle
 
-## PEGA O build  DA APLICAÇÃO E FAZ UMA COPIA PARA /udemy-app/udemy-proto-api-0.0.1.jar
+# COPIE O ARQUIVO JAR COMPILADO DO ESTÁGIO ANTERIOR PARA O CONTÊINER
 COPY --from=build /java-estudos/target/curso-java.jar /java-estudos/curso-java.jar
 
-## DIRETORIO /udemy-app
+# DEFINA O DIRETÓRIO DE TRABALHO
 WORKDIR /java-estudos
 
-##  QUAL A PORTA A APLICAÇÃO SERA EXECUTADA
+# EXPONHA A PORTA QUE A APLICAÇÃO VAI RODAR
 EXPOSE 8080
 
-##  EXECUTA OS COMANDO JAVA ABAIXO PARA O JAR udemy-proto-api-0.0.1.jar
+# EXECUTE A APLICAÇÃO JAVA
 CMD [ "java","-jar","udemy-proto-api-0.0.1.jar"]
 

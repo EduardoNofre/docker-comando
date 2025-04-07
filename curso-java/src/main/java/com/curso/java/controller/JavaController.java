@@ -39,7 +39,8 @@ public class JavaController {
 	@Operation(summary = "Criar Lista java ", description = "Criar lista de java")
 	@ApiResponses(value = { @ApiResponse(responseCode = "200", description = "Sucesso", content = {
 			@Content(mediaType = "application/json", array = @ArraySchema(schema = @Schema(implementation = JavaDTO.class))) }),
-			@ApiResponse(responseCode = "200", description = "Sem conteudo", content = @Content),
+			@ApiResponse(responseCode = "200", description = "sucesso", content = @Content),
+			@ApiResponse(responseCode = "204", description = "Sem conteudo", content = @Content),
 			@ApiResponse(responseCode = "400", description = "Erro processar a requisição", content = @Content),
 			@ApiResponse(responseCode = "401", description = "Não autorizado", content = @Content),
 			@ApiResponse(responseCode = "404", description = "Pagina não encontrado", content = @Content),
@@ -55,7 +56,7 @@ public class JavaController {
 	@Operation(summary = "Lista de java ", description = "lista de java")
 	@ApiResponses(value = { @ApiResponse(responseCode = "200", description = "Sucesso", content = {
 			@Content(mediaType = "application/json", array = @ArraySchema(schema = @Schema(implementation = JavaDTO.class))) }),
-			@ApiResponse(responseCode = "204", description = "Sem conteudo", content = @Content),
+			@ApiResponse(responseCode = "201", description = "conteudo criado", content = @Content),
 			@ApiResponse(responseCode = "400", description = "Erro processar a requisição", content = @Content),
 			@ApiResponse(responseCode = "401", description = "Não autorizado", content = @Content),
 			@ApiResponse(responseCode = "404", description = "Pagina não encontrado", content = @Content),
