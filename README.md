@@ -8,7 +8,7 @@
 </p>
 
 <h1 align="center">
-        Preparando ambiente Docker.
+        Preparando ambiente Docker local.
  </h1>
  
   - ### 1 - Criar uma conta no docker.<br>
