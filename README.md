@@ -100,6 +100,15 @@
       - ### Sintaxe: docker pull 'seu usuario do dockerHub'/'nome imagemi:tag' <br>
                 docker pull financeapp/curso-java:1.0
 
+  - ### 5 - Verificando se o push funcionou.<br>
+        - ### Existe duas maneiras <br>
+              1 - via comando sintaxe:
+                        docker search usuario do dockerHub
+                exemplo:
+                      docker search financeapp
+              2 - Visitar a propria pagina do dockerHub e validar pelo repositorio.
+    
+
 - ### Lista de comando docker.**<br/>
     O docker desde de 2017 dividiu os comando em dois grupos **comando de gerenciamento** e **comandos**<br/>
     Para ver todas essa lista digite no docker o seguinte comando: **docker --help** irá lista todos os camando de forma organizada la você verá **comando de gerenciamento** e **comandos**<br/>
