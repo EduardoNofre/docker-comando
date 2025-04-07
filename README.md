@@ -18,9 +18,10 @@
 
 
 ## Cirando o arquivo Dockerfile ambiente Docker.
- ### 1 - O arquivo Dockerfile contem as configuraçoes necessaria para criar a imagem da aplicação.<br>
- ### 2 - O arquivo Dockerfile pode ser inserido ou criado na raiz do seu projeto.<br>
-     ### 3 exemplo no java.<br>
+ - ### 1 - O arquivo Dockerfile contem as configuraçoes necessaria para criar a imagem da aplicação.<br>
+ - ### 2 - O arquivo Dockerfile pode ser inserido ou criado na raiz do seu projeto.<br>
+   - ### 3 exemplo no java.<br>
+     
 <p align="center">
   <img src="https://github.com/EduardoNofre/docker-comando/blob/main/Dockerfile.png?raw=true" alt="Sublime's custom image"/>  
 </p>
