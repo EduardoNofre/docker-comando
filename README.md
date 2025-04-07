@@ -68,13 +68,13 @@
     - ### Sintaxe: docker build -t 'nome da imagem': tag .<br>
             Exemplo: docker build -t curso-java:1.0
 
-   - ### Execute o comando para verificar a imagem criada .<br>
+- ### 2 - Execute o comando para verificar a imagem criada .<br>
     - ### Sintaxe: docker image ls<br>
             Saida:
                   REPOSITORY                   TAG       IMAGE ID       CREATED       SIZE
                   curso-java                   1.0       00a75f64ef82   2 hours ago   840MB
       
-    - ### Execute o comando para roda a imagem.<br>
+- ### 3 - Execute o comando para roda a imagem.<br>
      - ### Sintaxe: docker run -d -p 8080:8080 'nome da imagem ou id':tag <br>
              Exemplo: docker run -d -p 8080:8080 curso-java:1.0
              Observação:
