@@ -20,7 +20,7 @@
     - ### 4.2 - execute o comando 'docker ps'.<br>
 
 <h1 align="center">
-       Cirando o arquivo Dockerfile ambiente Docker.
+       Criando o arquivo Dockerfile ambiente Docker.
  </h1>
  
  - ### 1 - O arquivo Dockerfile contem as configuraçoes necessaria para criar a imagem da aplicação.<br>
@@ -28,10 +28,8 @@
    - ### 3 exemplo no java.<br>
      
 <p align="center">
-  <img src="https://github.com/EduardoNofre/docker-comando/blob/main/Dockerfile.png?raw=true" alt="Sublime's custom image"/>  
+ Exemplo de Dockerfile 
 </p>
-
-## Exemplo de Dockerfile.
 
               ## BUILD DA APLICAÇÃO E INDICA QUAL A VERSÃO DO JAVA SERA FEITA O BUILD UTILIZANDO O MAVEN
               FROM maven:3.8.4-openjdk-17 as build
@@ -66,7 +64,9 @@
               ##  EXECUTA OS COMANDO JAVA ABAIXO PARA O JAR udemy-proto-api-0.0.1.jar
               CMD [ "java","-jar","udemy-proto-api-0.0.1.jar"]
 
-## Criando a imagem da sua aplicação.
+<p align="center">
+  Criando a imagem da sua aplicação.
+</p>
 
 - ### 1 - Uma vez que seu Dokcerfile esteja na sua aplicação e sem erros.<br>
 
