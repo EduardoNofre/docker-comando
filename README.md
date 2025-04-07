@@ -11,8 +11,10 @@
   - ### 1 - Criar uma conta no docker.<br>
   - ### 2 - Fazer o downnload do Docker Desktop de acordo com seu S.O <br>
   - ### 3 - Instalar o Docker Desktop <br>
-  - ### 4 - Verificar se a instalação deu certo.<br>
+  - ### 4 - Verificar se a instalação deu certo pode executar um dos comando abaixo.<br>
     - ### 4.1 - execute o comando 'docker --version'.<br>
+    - ### 4.2 - execute o comando 'docker run hello-world'.<br>
+    - ### 4.3 - execute o comando 'docker ps'.<br>
 
 
 ## Preparando ambiente Docker.
