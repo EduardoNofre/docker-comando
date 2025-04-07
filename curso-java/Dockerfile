@@ -17,7 +17,7 @@ WORKDIR /java-estudos
 RUN mvn clean install
 
 # CRIE UMA IMAGEM MAIS LEVE PARA RODAR A APLICAÇÃO (IMAGEM RUNTIME)
-FROM openjdk:22-ea-16-oracle
+FROM openjdk:17-ea-10-jdk-oracle
 
 # COPIE O ARQUIVO JAR COMPILADO DO ESTÁGIO ANTERIOR PARA O CONTÊINER
 COPY --from=build /java-estudos/target/curso-java.jar /java-estudos/curso-java.jar
