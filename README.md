@@ -65,8 +65,8 @@
 - ### 1 - Uma vez que seu Dokcerfile esteja na sua aplicação e sem erros.<br>
   - ### Execute o comando para criar a imagem da aplicação.<br>
   - ### Execute o comando para criar a imagem da aplicação .<br>
-        Sintaxe: docker build -t 'nome da imagem': tag .
-            exemplo: docker build -t curso-java:1.0
+    ### Sintaxe: 'docker build -t 'nome da imagem': tag .'<br>
+        Exemplo: docker build -t curso-java:1.0
 
 
 - ### Lista de comando docker.**<br/>
