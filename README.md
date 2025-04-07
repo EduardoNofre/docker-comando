@@ -8,7 +8,7 @@
 </p>
 
 ## Preparando ambiente Docker.
-- ### 1 - Criar uma conta no docker.<br>
+  - ### 1 - Criar uma conta no docker.<br>
   - ### 2 - Fazer o downnload do Docker Desktop de acordo com seu S.O <br>
   - ### 3 - Instalar o Docker Desktop <br>
 
