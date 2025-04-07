@@ -27,9 +27,9 @@
  - ### 2 - O arquivo Dockerfile pode ser inserido ou criado na raiz do seu projeto.<br>
    - ### 3 exemplo no java.<br>
      
-<p align="center">
+<h1 align="center">
  Exemplo de Dockerfile 
-</p>
+</h1>
 
               ## BUILD DA APLICAÇÃO E INDICA QUAL A VERSÃO DO JAVA SERA FEITA O BUILD UTILIZANDO O MAVEN
               FROM maven:3.8.4-openjdk-17 as build
