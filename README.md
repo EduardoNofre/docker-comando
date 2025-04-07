@@ -7,6 +7,12 @@
   <img src="https://github.com/EduardoNofre/docker-comando/blob/main/1722494286724_image.png?raw=true" alt="Sublime's custom image"/>  
 </p>
 
+## Preparando ambiente Docker.
+- ### 1 - Criar uma conta no docker.<br>
+  - ### 2 - Fazer o downnload do Docker Desktop de acordo com seu S.O <br>
+  - ### 3 - Instalar o Docker Desktop <br>
+
+
 
 - ### Lista de comando docker.**<br/>
     O docker desde de 2017 dividiu os comando em dois grupos **comando de gerenciamento** e **comandos**<br/>
