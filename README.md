@@ -61,7 +61,12 @@
               ##  EXECUTA OS COMANDO JAVA ABAIXO PARA O JAR udemy-proto-api-0.0.1.jar
               CMD [ "java","-jar","udemy-proto-api-0.0.1.jar"]
 
-
+## Criando a imagem da sua aplicação.
+- ### 1 - Uma vez que seu Dokcerfile esteja na sua aplicação e sem erros.<br>
+  - ### Execute o comando para criar a imagem da aplicação.<br>
+  - ### Execute o comando para criar a imagem da aplicação .<br>
+        Sintaxe: docker build -t 'nome da imagem': tag .
+            exemplo: docker build -t curso-java:1.0
 
 
 - ### Lista de comando docker.**<br/>
