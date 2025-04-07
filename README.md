@@ -65,9 +65,9 @@
               CMD [ "java","-jar","udemy-proto-api-0.0.1.jar"]
 
 
-<<h1 align="center">
-  Criando a imagem da sua aplicação.
-</<h1>
+    <<h1 align="center">
+      Criando a imagem da sua aplicação.
+    </h1>
 
 - ### 1 - Uma vez que seu Dokcerfile esteja na sua aplicação e sem erros.<br>
 
@@ -91,7 +91,10 @@
                     -d para subir desataxado prompt<br/>
                     -p portas usada onde 8081 é a porta externa e a 8080 porta interna no docker <br/>
 
-## Imagem criada e testada, vamos fazer push e pull da imagem.
+<<h1 align="center">
+  Imagem criada e testada, vamos fazer push e pull da imagem.
+</h1>
+
   - ### 1 - Vamos fazer o deploy da imagem no dockerHub.<br>
   
   - ### 2 - Devemos nos logar no dockerHub.<br>
@@ -115,8 +118,10 @@
        
               2 - Visitar a propria pagina do dockerHub e validar pelo repositorio.
     
+<<h1 align="center">
+  Lista de comando docker.
+</h1>
 
-- ### Lista de comando docker.**<br/>
     O docker desde de 2017 dividiu os comando em dois grupos **comando de gerenciamento** e **comandos**<br/>
     Para ver todas essa lista digite no docker o seguinte comando: **docker --help** irá lista todos os camando de forma organizada la você verá **comando de gerenciamento** e **comandos**<br/>
 Exemplo:<br/>
