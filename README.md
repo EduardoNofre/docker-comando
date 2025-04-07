@@ -106,6 +106,7 @@
                         docker search usuario do dockerHub
                 exemplo:
                       docker search financeapp
+       
               2 - Visitar a propria pagina do dockerHub e validar pelo repositorio.
     
 
