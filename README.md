@@ -78,6 +78,7 @@
      - ### Sintaxe: docker run -d -p 8080:8080 'nome da imagem ou id':tag <br>
          Exemplo: docker run -d -p 8080:8080 curso-java:1.0
             Observação:
+       
                   **docker run -d -p 8081:8080 < id image >**. <br/>
                   Comando que executa a imagem <br/>
                     **-d** para subir desataxado prompt<br/>
