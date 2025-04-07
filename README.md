@@ -123,7 +123,7 @@
               2 - Visitar a propria pagina do dockerHub e validar pelo repositorio.
     
 <<h1 align="center">
-  Lista de comando docker.
+  Lista de comandos docker.
 </h1>
 
 O docker desde de 2017 dividiu os comando em dois grupos **comando de gerenciamento** e **comandos**<br/>
