@@ -7,7 +7,10 @@
   <img src="https://github.com/EduardoNofre/docker-comando/blob/main/1722494286724_image.png?raw=true" alt="Sublime's custom image"/>  
 </p>
 
-## Preparando ambiente Docker.
+<h1 align="center">
+        Preparando ambiente Docker.
+ </h1>
+ 
   - ### 1 - Criar uma conta no docker.<br>
   - ### 2 - Fazer o downnload do Docker Desktop de acordo com seu S.O <br>
   - ### 3 - Instalar o Docker Desktop <br>
@@ -16,8 +19,10 @@
     - ### 4.1 - execute o comando 'docker run hello-world'.<br>
     - ### 4.2 - execute o comando 'docker ps'.<br>
 
-
-## Cirando o arquivo Dockerfile ambiente Docker.
+<h1 align="center">
+       Cirando o arquivo Dockerfile ambiente Docker.
+ </h1>
+ 
  - ### 1 - O arquivo Dockerfile contem as configuraçoes necessaria para criar a imagem da aplicação.<br>
  - ### 2 - O arquivo Dockerfile pode ser inserido ou criado na raiz do seu projeto.<br>
    - ### 3 exemplo no java.<br>
