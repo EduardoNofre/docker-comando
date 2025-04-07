@@ -85,16 +85,20 @@
                     -d para subir desataxado prompt<br/>
                     -p portas usada onde 8081 é a porta externa e a 8080 porta interna no docker <br/>
 
-## Imagem criada e testada.
+## Imagem criada e testada, vamos fazer push e pull da imagem.
   - ### 1 - Vamos fazer o deploy da imagem no dockerHub.<br>
   
   - ### 2 - Devemos nos logar no dockerHub.<br>
-      - ### Sintaxe: docker login  ' <br>
+      - ### Sintaxe: docker login <br>
                 Exemplo: docker login
-        
+  
   - ### 3 - Fazendo o push da imagem.<br>
-      - ### Sintaxe: docker push seu usuario do dockerHub/nome imagemi:tag' <br>
+      - ### Sintaxe: docker push 'seu usuario do dockerHub'/'nome imagemi:tag' <br>
                 docker push financeapp/curso-java:1.0
+
+  - ### 4 - Fazendo o pull da imagem.<br>
+      - ### Sintaxe: docker pull 'seu usuario do dockerHub'/'nome imagemi:tag' <br>
+                docker pull financeapp/curso-java:1.0
 
 - ### Lista de comando docker.**<br/>
     O docker desde de 2017 dividiu os comando em dois grupos **comando de gerenciamento** e **comandos**<br/>
