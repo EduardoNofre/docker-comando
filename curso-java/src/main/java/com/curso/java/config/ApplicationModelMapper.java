@@ -13,7 +13,7 @@ import lombok.extern.slf4j.Slf4j;
 
 @Slf4j
 @Configuration
-@ComponentScan("udemy.proto.api.app")
+@ComponentScan("com.curso.java")
 public class ApplicationModelMapper  {
 
 	  @Bean
