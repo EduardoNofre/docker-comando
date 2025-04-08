@@ -20,7 +20,7 @@ RUN mvn clean install
 FROM openjdk:17-ea-10-jdk-oracle
 
 # COPIE O ARQUIVO JAR COMPILADO DO ESTÁGIO ANTERIOR PARA O CONTÊINER
-COPY --from=build /java-estudos/target/curso-java.jar /java-estudos/curso-java.jar
+COPY --from=build /java-estudos/target/curso-java-0.0.1.jar /java-estudos/curso-java-0.0.1.jar
 
 # DEFINA O DIRETÓRIO DE TRABALHO
 WORKDIR /java-estudos
@@ -29,5 +29,5 @@ WORKDIR /java-estudos
 EXPOSE 8080
 
 # EXECUTE A APLICAÇÃO JAVA
-CMD [ "java","-jar","udemy-proto-api-0.0.1.jar"]
+CMD [ "java","-jar","curso-javai-0.0.1.jar"]
 
