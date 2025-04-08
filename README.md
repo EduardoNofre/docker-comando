@@ -121,6 +121,7 @@
              
                 Observação:        
                         Padrão de criação é usuario/repositorio:tag <br>
+                        mesmo nome do repositorio la no dockerHub
               
   - ### 4 - Fazendo o pull da imagem.<br>
       - ### Sintaxe: docker pull 'seu usuario do dockerHub'/'nome imagemi:tag' <br>
