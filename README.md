@@ -88,12 +88,22 @@
 - ### 1.2 - Execute o comando para roda a imagem.<br>
      - ### Sintaxe: docker run -d -p 8080:8080 'nome da imagem ou id':tag <br>
              Exemplo: docker run -d -p 8080:8080 curso-java:1.0
-             Observação:
        
+             Observação:
                   **docker run -d -p 8081:8080 < id image >**. <br/>
                   Comando que executa a imagem <br/>
                     -d para subir desataxado prompt<br/>
                     -p portas usada onde 8081 é a porta externa e a 8080 porta interna no docker <br/>
+
+                     Exemplo
+                         Porta externa: É a porta externa que docker ira disponibilizar '8080' <br/>
+                         Porta interna: E a porta interna está configurada em seu properties '8081'. <br/>
+
+                         docker run -d -p 8080:8081 curso-java:1.0
+       
+                         Ao executar o comando acima a porta que ficará disponivel é localhost:8080/java/swagger-ui/index.html
+                         Ao executar pelo eclipse devido configuração da porta '8081' no properties ficará disponivel é localhost:8081/java/swagger-ui/index.html
+       
 
 <<h1 align="center">
   Imagem criada e testada, vamos fazer push e pull da imagem.
