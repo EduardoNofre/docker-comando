@@ -117,8 +117,11 @@
   
   - ### 3 - Fazendo o push da imagem.<br>
       - ### Sintaxe: docker push 'seu usuario do dockerHub'/'nome imagemi:tag' <br>
-                docker push financeapp/curso-java:1.0
-
+                docker push financeapp/curso-java:1.0 <br>
+             
+                Observação:        
+                        Padrão de criação é usuario/repositorio:tag <br>
+              
   - ### 4 - Fazendo o pull da imagem.<br>
       - ### Sintaxe: docker pull 'seu usuario do dockerHub'/'nome imagemi:tag' <br>
                 docker pull financeapp/curso-java:1.0
