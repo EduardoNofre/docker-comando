@@ -163,12 +163,12 @@ Exemplo:<br/>
   Comandos para image
   </h1>
   
-  01 - **docker image ls**  Lista as imagens 
-  02 - **docker rmi < id image >** remove a image
-  04 - **docker image pull < id image >** download da imagem
-  05 - **docker push < id image >** upload da imagem para docoker Hub
-  05 - **docker prune** upload da imagem para docoker Hub
-  06 - **docker image prune -a**  remove todas as image
+  01 - **docker image ls**  Lista as imagens <br/>
+  02 - **docker rmi < id image >** remove a image<br/>
+  04 - **docker image pull < id image >** download da imagem<br/>
+  05 - **docker push < id image >** upload da imagem para docoker Hub<br/>
+  05 - **docker prune** upload da imagem para docoker Hub<br/>
+  06 - **docker image prune -a**  remove todas as image<br/>
 
   <h1 align="center">
   Comandos para container
