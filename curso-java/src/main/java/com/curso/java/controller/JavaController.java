@@ -38,7 +38,7 @@ public class JavaController {
 	
 	@Operation(summary = "Criar Lista java ", description = "Criar lista de java")
 	@ApiResponses(value = { @ApiResponse(responseCode = "200", description = "Sucesso", content = {
-			@Content(mediaType = "application/json", array = @ArraySchema(schema = @Schema(implementation = JavaDTO.class))) }),
+			@Content(mediaType = "application/json", schema = @Schema(implementation = Integer.class)) }),
 			@ApiResponse(responseCode = "200", description = "sucesso", content = @Content),
 			@ApiResponse(responseCode = "204", description = "Sem conteudo", content = @Content),
 			@ApiResponse(responseCode = "400", description = "Erro processar a requisição", content = @Content),
