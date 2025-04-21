@@ -169,6 +169,8 @@ Exemplo:<br/>
   05 - **docker push < id image >** upload da imagem para docoker Hub<br/>
   05 - **docker prune** upload da imagem para docoker Hub<br/>
   06 - **docker image prune -a**  remove todas as image<br/>
+  07 - **docker container ls -a -q** Lista somente os id's de todos as imagens
+  08 - **docker rmi -f $(docker image ls -a -q)** Remove todas as imagens
 
   <h1 align="center">
   Comandos para container
